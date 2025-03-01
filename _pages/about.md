@@ -1,19 +1,22 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Scientific Artificial Intelligence for Polymer/Molecule/Material"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+With the development of big data science, machine learning technologies have found applications in certain specific fields, such as crystal structure design, providing a new approach for the efficient creation of materials. Therefore, artificial intelligence is expected to drive a new transformation in the paradigm of materials research and development.
 
-A data-driven personal website
+However, there are still research bottlenecks in AI-based materials research. Real materials exhibit complex multi-scale structures, serving as a bridge between composition-processing and target material properties. On one hand, the panoramic mapping relationships between multi-scale structures, composition-processing, and material properties are currently incomplete, lacking an effective unified theory, which leads to an island effect in the materials knowledge system. On the other hand, existing AI-related research has only established some point-to-point or partial line-to-line mapping relationships, without building a complete multi-scale structure-property relationship or panoramic mapping. As a result, it is challenging to achieve "demand-driven design and precise fabrication" of specific materials.
+
+AI is a powerful tool for establishing connections from the micro scale to the meso scale, and then to the macro scale
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+ By integrating data and knowledge, large-scale models for multi-scale materials engineering is constructed, allowing for the discovery of potential relationships between scales and the precise analysis of multi-scale structure-property relationships. 
+ Specifically, I have developed PolyNC for polymer property prediction and PolyTAO for on-demand polymer design. 
+ [PolyNC](https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc05079c), [Github](https://github.com/HKQiu/Unified_ML4Polymers).
+ [PolyTAO](https://www.nature.com/articles/s41524-024-01466-5), [Github](https://github.com/hkqiu/PolymerGenerationPretrainedModel).
 
 Getting started
 ======
