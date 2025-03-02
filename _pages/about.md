@@ -18,15 +18,15 @@ AI is a powerful tool for establishing connections from the micro scale to the m
  
  PolyNC: [Paper](https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc05079c), [Github](https://github.com/HKQiu/Unified_ML4Polymers).
 <p align="center">
-  <img src="/images/polync.png" alt="polyNC" width="300"/>
+  <img src="/images/polync.png" alt="polyNC" width="400"/>
 </p>
 
  PolyTAO: [Paper](https://www.nature.com/articles/s41524-024-01466-5), [Github](https://github.com/hkqiu/PolymerGenerationPretrainedModel).
 <p align="center">
-  <img src="/images/polytao.png" alt="polyTAO" width="300"/>
+  <img src="/images/polytao.png" alt="polyTAO" width="400"/>
 </p>
 
  polyScreen: [Github](https://github.com/hkqiu/PPP-1_PredictionTg4Polyimides/tree/main/src).
 <p align="center">
-  <img src="/images/polyscreen.png" alt="polyScreen" width="300"/>
+  <img src="/images/polyscreen.png" alt="polyScreen" width="400"/>
 </p>
