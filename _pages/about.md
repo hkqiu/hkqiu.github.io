@@ -22,5 +22,5 @@ AI is a powerful tool for establishing connections from the micro scale to the m
  PolyTAO: [Paper](https://www.nature.com/articles/s41524-024-01466-5), [Github](https://github.com/hkqiu/PolymerGenerationPretrainedModel).
 ![polyTAO](/images/polytao.png)
 
- polyScreen: [Github](https://github.com/hkqiu/PolymerGenerationPretrainedModel).
+ polyScreen: [Github](https://github.com/hkqiu/PPP-1_PredictionTg4Polyimides/tree/main/src).
 ![polyScreen](/images/polyscreen.png)
