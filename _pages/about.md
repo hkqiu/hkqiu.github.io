@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Scientific Artificial Intelligence for Polymer/Molecule/Material"
+title: "Haoke Qiu -- Scientific Artificial Intelligence for Polymer/Molecule/Material"
 author_profile: true
 redirect_from: 
   - /about/
