@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "MSRA-team @ MSRA Shanghai"
+excerpt: "Nice team, mice mentors, nice teammates, nice experience. Lol. <br/><img src='/images/MSRA-team.jpg'>"
 collection: portfolio
 ---
 
