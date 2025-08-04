@@ -14,7 +14,7 @@ However, there are still research bottlenecks in AI-based materials research. Re
 AI is a powerful tool for establishing connections from the micro scale to the meso scale, and then to the macro scale
 ======
  By integrating data and knowledge, large-scale models for multi-scale materials engineering is constructed, allowing for the discovery of potential relationships between scales and the precise analysis of multi-scale structure-property relationships. 
- Specifically, I have developed PolyNC for polymer property prediction and PolyTAO for on-demand polymer design. 
+ Specifically, Prof. [Zhao-Yan Sun](https://ciac.cas.cn/sourcedb/cn/zjrck/zgj/202011/t20201120_5758945.html) aand I have developed PolyNC for polymer property prediction and PolyTAO for on-demand polymer design. 
  
  PolyNC: [Paper](https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc05079c), [Github](https://github.com/HKQiu/Unified_ML4Polymers).
 <p align="center">
