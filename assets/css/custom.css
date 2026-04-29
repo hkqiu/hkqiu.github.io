@@ -1,0 +1,207 @@
+/* ==========================================================================
+   Custom Elegant Styles for Haoke Qiu's Academic Homepage
+   ========================================================================== */
+
+/* Typography overrides */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.author__name,
+.masthead__menu-item a,
+.archive__item-title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Page title styling */
+.page__title {
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #1f2937;
+  margin-bottom: 0.8em;
+}
+
+/* About page hero section */
+.page__content > p:first-of-type {
+  font-size: 1.05em;
+  line-height: 1.85;
+  color: #4b5563;
+}
+
+/* Section headings in content */
+.page__content h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #1f2937;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid #e5e7eb;
+  margin-top: 2.5em;
+}
+
+.page__content h2 {
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #374151;
+  margin-top: 2em;
+}
+
+/* Links */
+.page__content a {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.page__content a:hover {
+  border-bottom-color: #2563eb;
+}
+
+/* Navigation bar enhancements */
+.greedy-nav a {
+  font-weight: 500;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+  padding: 0.5em 0.8em;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.greedy-nav a:hover {
+  background-color: #f3f4f6;
+  color: #2563eb;
+}
+
+.greedy-nav .site__title {
+  font-weight: 700;
+  font-size: 1.05em;
+  letter-spacing: -0.01em;
+}
+
+/* Author profile enhancements */
+.author__bio {
+  font-size: 0.88em;
+  line-height: 1.6;
+}
+
+.author__urls a {
+  font-size: 0.85em;
+  padding: 0.35em 0;
+  color: #4b5563;
+  transition: color 0.2s ease;
+}
+
+.author__urls a:hover {
+  color: #2563eb;
+}
+
+/* Publication cards */
+.archive__item {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.archive__item-title a {
+  color: #1f2937;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.archive__item-title a:hover {
+  color: #2563eb;
+}
+
+/* Images in content */
+.page__content img {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease;
+}
+
+.page__content img:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.page__footer {
+  border-top: 1px solid #e5e7eb;
+  background: #f9fafb;
+  color: #6b7280;
+  font-size: 0.85em;
+}
+
+/* News section styling */
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-list li {
+  padding: 1em 0;
+  border-bottom: 1px solid #f3f4f6;
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+}
+
+.news-list li:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  font-size: 0.82em;
+  color: #9ca3af;
+  white-space: nowrap;
+  min-width: 90px;
+  font-weight: 500;
+}
+
+.news-content {
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* Fade-in animation for page content */
+.page__content {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page__title {
+    font-size: 1.5em;
+  }
+
+  .page__content h1 {
+    font-size: 1.3em;
+  }
+
+  .news-list li {
+    flex-direction: column;
+    gap: 0.3em;
+  }
+}
+
+/* Selection color */
+::selection {
+  background-color: #dbeafe;
+  color: #1e40af;
+}

@@ -1,32 +1,46 @@
 ---
 permalink: /
-title: "Haoke Qiu -- Dedicated to Scientific Artificial Intelligence for Polymer/Molecule/Material"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-With the development of big data science, machine learning technologies have found applications in certain specific fields, such as crystal structure design, providing a new approach for the efficient creation of materials. Therefore, artificial intelligence is expected to drive a new transformation in the paradigm of materials research and development.
+I am dedicated to developing **Scientific Artificial Intelligence** for polymers, molecules, and materials. My research focuses on leveraging AI to bridge the gap between molecular-scale understanding and macroscale material properties, enabling demand-driven material design.
 
-However, there are still research bottlenecks in AI-based materials research. Real materials exhibit complex multi-scale structures, serving as a bridge between composition-processing and target material properties. On one hand, the panoramic mapping relationships between multi-scale structures, composition-processing, and material properties are currently incomplete, lacking an effective unified theory, which leads to an island effect in the materials knowledge system. On the other hand, existing AI-related research has only established some point-to-point or partial line-to-line mapping relationships, without building a complete multi-scale structure-property relationship or panoramic mapping. As a result, it is challenging to achieve "demand-driven design and precise fabrication" of specific materials.
-
-AI is a powerful tool for establishing connections from the micro scale to the meso scale, and then to the macro scale
+Research Vision
 ======
- By integrating data and knowledge, large-scale models for multi-scale materials engineering is constructed, allowing for the discovery of potential relationships between scales and the precise analysis of multi-scale structure-property relationships. 
- Specifically, Prof. [Zhao-Yan Sun](https://ciac.cas.cn/sourcedb/cn/zjrck/zgj/202011/t20201120_5758945.html) and I have developed PolyNC for polymer property prediction and PolyTAO for on-demand polymer design. 
- 
- PolyNC: [Paper](https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc05079c), [Github](https://github.com/HKQiu/Unified_ML4Polymers).
+
+Real materials exhibit complex multi-scale structures that serve as a bridge between composition-processing and target properties. However, existing AI approaches have only established fragmented point-to-point mappings, without building complete multi-scale structure-property relationships. My goal is to construct **unified AI frameworks** that capture the full panoramic mapping from molecular structure to material performance.
+
+By integrating data and domain knowledge, I develop large-scale models for multi-scale materials engineering that discover potential relationships between scales and enable precise analysis of structure-property relationships.
+
+Representative Work
+======
+
+**PolyNC** --- Unified polymer property prediction across multiple scales.
+[Paper](https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc05079c) | [GitHub](https://github.com/HKQiu/Unified_ML4Polymers)
+
 <p align="center">
-  <img src="/images/polync.png" alt="polyNC" width="400"/>
+  <img src="/images/polync.png" alt="PolyNC" width="480"/>
 </p>
 
- PolyTAO: [Paper](https://www.nature.com/articles/s41524-024-01466-5), [Github](https://github.com/hkqiu/PolymerGenerationPretrainedModel).
+**PolyTAO** --- On-demand reverse design of polymers through pretrained language models.
+[Paper](https://www.nature.com/articles/s41524-024-01466-5) | [GitHub](https://github.com/hkqiu/PolymerGenerationPretrainedModel)
+
 <p align="center">
-  <img src="/images/polytao.png" alt="polyTAO" width="400"/>
+  <img src="/images/polytao.png" alt="PolyTAO" width="480"/>
 </p>
 
- polyScreen: [Github](https://github.com/hkqiu/PPP-1_PredictionTg4Polyimides/tree/main/src).
+**polyScreen** --- High-throughput screening for polyimide glass transition temperatures.
+[GitHub](https://github.com/hkqiu/PPP-1_PredictionTg4Polyimides/tree/main/src)
+
 <p align="center">
-  <img src="/images/polyscreen.png" alt="polyScreen" width="400"/>
+  <img src="/images/polyscreen.png" alt="polyScreen" width="480"/>
 </p>
+
+Collaborators
+======
+
+Prof. [Zhao-Yan Sun](https://ciac.cas.cn/sourcedb/cn/zjrck/zgj/202011/t20201120_5758945.html) (CIAC, CAS)
