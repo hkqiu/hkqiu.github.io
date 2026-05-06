@@ -4,11 +4,15 @@
 
 ## GitHub Pages 部署说明（重要）
 
-本站使用 **GitHub Actions** 在推送后执行 `jekyll build`，并将静态产物推送到 **`gh-pages` 分支**（与默认的 `master` 仅源码不同）。
+本站通过 **GitHub Actions** 构建静态站点并发布到 Pages，**不需要** `gh-pages` 分支。
 
-1. 仓库 **Settings → Pages**：**Build and deployment** 的 **Branch** 请选择 **`gh-pages`**，目录选 **`/(root)`**。
-2. 首次推送 `master` 后，等待 Action **Deploy** 成功；若 `gh-pages` 尚未出现，待工作流跑完再刷新设置页。
-3. 自定义域名：在仓库根目录放置 `CNAME`（若需要），并在 Pages 设置中填写域名。
+1. 打开仓库 **Settings → Pages**。
+2. 在 **Build and deployment** 里，**Source（发布来源）** 请选择 **GitHub Actions**，不要选 “Deploy from a branch”。  
+   （只有选 Actions 后，才会由工作流上传产物；界面上若仍只有 branch/docs，说明当前选的是「从分支发布」——请改成 **GitHub Actions**。）
+3. **Settings → Actions → General → Workflow permissions**：建议选 **Read and write**，并允许 Actions 使用。`deploy-pages` 需要 `pages: write` 与 `id-token: write`（工作流里已声明）。
+4. 推送 `master`/`main` 后，在 **Actions** 里确认 **Deploy site to Pages** 成功；成功后站点 URL 会显示在 **Settings → Pages** 顶部。
+
+若你希望继续用「推送到 `gh-pages` 分支」的旧方式，需要本地或 CI 先成功执行一次会创建该分支的脚本；当前仓库已改为官方推荐的 **Actions 直连 Pages**，更简单。
 
 ## 本地预览
 
