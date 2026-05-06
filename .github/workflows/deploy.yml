@@ -43,7 +43,9 @@ jobs:
         run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_REPO_NWO: hkqiu/hkqiu.github.io
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
