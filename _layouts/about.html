@@ -38,7 +38,13 @@ layout: default
         <div class="about-me-text">
           {{ content }}
         </div>
-        {% if page.profile and page.profile.image %}
+        {% if page.profile and page.profile.image_url %}
+        <div class="profile profile-card">
+          <div class="profile-image-wrap">
+            <img src="{{ page.profile.image_url }}" alt="Portrait of {{ site.first_name }} {{ site.last_name }}" class="profile-image img-fluid z-depth-1" loading="lazy" decoding="async" width="480" height="480" />
+          </div>
+        </div>
+        {% elsif page.profile and page.profile.image %}
         <div class="profile profile-card">
           <div class="profile-image-wrap">
             {% responsive_image_block %}
