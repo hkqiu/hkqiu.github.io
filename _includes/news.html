@@ -1,7 +1,7 @@
 <div class="news">
   <h2>Recent News</h2>
   {% if site.news %}
-    {% assign news = site.news | reverse %}
+    {% assign news = site.news | sort: 'date' | reverse %}
     <div class="news-timeline">
       <div class="timeline-line" aria-hidden="true"></div>
       {% for item in news limit: site.news_limit %}
