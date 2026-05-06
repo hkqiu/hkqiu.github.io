@@ -22,18 +22,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+
+      # rmagick（jekyll-responsive-image）在 bundle install 时就要链接 ImageMagick，必须先装系统库
+      - name: Install ImageMagick (for rmagick / jekyll-responsive-image)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pkg-config libmagickwand-dev imagemagick
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
-
-      - name: Install ImageMagick (jekyll-responsive-image)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libmagickwand-dev imagemagick
 
       - name: Mermaid CLI (jekyll-diagrams)
         run: npm install -g @mermaid-js/mermaid-cli
