@@ -14,6 +14,7 @@ order: 2
   - *ACS Applied Polymer Materials*
   - *ChemPlusChem*
   - *Computational Materials Science*
+  - *Communications Sustainability*
   - *Discover Materials*
   - *International Journal of Oral Science*
   - *Journal of Fluorescence*
