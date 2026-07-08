@@ -16,6 +16,7 @@ order: 2
   - *Computational Materials Science*
   - *Communications Sustainability*
   - *Discover Materials*
+  - *Discover Chemistry*
   - *International Journal of Oral Science*
   - *Journal of Fluorescence*
   - *Macromolecular Materials and Engineering*
