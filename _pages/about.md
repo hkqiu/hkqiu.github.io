@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Senior Researcher on AI for Science · <a href="https://www.ustc.edu.cn/">University of Science and Technology of China</a> &amp; <a href="https://ciac.cas.cn/">Changchun Institute of Applied Chemistry, CAS</a>
+description: Researcher on AI for Science · <a href="https://www.ustc.edu.cn/">University of Science and Technology of China</a> &amp; <a href="https://ciac.cas.cn/">Changchun Institute of Applied Chemistry, CAS</a>
 
 profile:
   align: right
